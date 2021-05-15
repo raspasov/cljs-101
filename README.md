@@ -9,8 +9,8 @@ clj -Sdeps '{:deps {org.clojure/clojurescript {:mvn/version "RELEASE"}}}' -M -m 
 At the repl you should be able to:
 
 ``` clojure
-(require ’foo.core)
-(in-ns ’foo.core)
+(require 'foo.core)
+(in-ns 'foo.core)
 ```
 
 ``` clojure

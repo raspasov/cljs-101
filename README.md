@@ -1,4 +1,4 @@
-# Clojure(Script) 101
+# ClojureScript 101
 
 ## Start a ClojureScript Node REPL
 

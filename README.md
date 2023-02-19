@@ -1,6 +1,6 @@
 # How to start a ClojureScript Node REPL
 
-## MacOS
+### MacOS
 
 1. Make sure you have node installed:
 ```
@@ -12,7 +12,7 @@ brew install node
 clj -Sdeps '{:deps {org.clojure/clojurescript {:mvn/version "RELEASE"}}}' -M -m cljs.repl.node
 ```
 
-## Windows
+### Windows
 
 **WARNING**: Does not on MacOS. Use the command above.
 

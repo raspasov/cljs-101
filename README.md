@@ -1,14 +1,21 @@
-# ClojureScript 101
+# How to start a ClojureScript Node REPL
 
-## Start a ClojureScript Node REPL
+## MacOS
 
-### On Linux and Mac
+1. Make sure you have node installed:
+```
+brew install node
+```
+2. Start the REPL:
 
 ``` clojure
 clj -Sdeps '{:deps {org.clojure/clojurescript {:mvn/version "RELEASE"}}}' -M -m cljs.repl.node
 ```
 
-### On Windows
+### Windows
+
+**WARNING**: Does not on MacOS. Use the command above.
+
 
 Here we need to do some additional escaping like this:
 
@@ -16,14 +23,3 @@ Here we need to do some additional escaping like this:
 clj -Sdeps '{:deps {org.clojure/clojurescript {:mvn/version \"RELEASE\"}}}' -M -m cljs.repl.node
 ```
 
-At the repl you should be able to:
-
-``` clojure
-(require 'foo.core)
-(in-ns 'foo.core)
-```
-
-``` clojure
-(my-add 3 3)
-;=> 6
-```

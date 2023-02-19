@@ -3,12 +3,12 @@
 ### MacOS
 
 1. Make sure you have node installed:
-```
+``` bash
 brew install node
 ```
 2. Start the REPL:
 
-``` clojure
+``` bash
 clj -Sdeps '{:deps {org.clojure/clojurescript {:mvn/version "RELEASE"}}}' -M -m cljs.repl.node
 ```
 
@@ -19,7 +19,7 @@ clj -Sdeps '{:deps {org.clojure/clojurescript {:mvn/version "RELEASE"}}}' -M -m 
 
 Here we need to do some additional escaping like this:
 
-``` clojure
+``` bash
 clj -Sdeps '{:deps {org.clojure/clojurescript {:mvn/version \"RELEASE\"}}}' -M -m cljs.repl.node
 ```
 
